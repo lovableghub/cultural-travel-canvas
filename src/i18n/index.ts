@@ -113,10 +113,6 @@ i18n
     interpolation: {
       escapeValue: false, // React already does escaping
     },
-    detection: {
-      order: ['localStorage', 'navigator', 'htmlTag'],
-      caches: ['localStorage'],
-    },
   });
 
 export default i18n;
