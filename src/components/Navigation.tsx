@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Globe, MapPin, User } from 'lucide-react';
 import { Button } from '@/components/ui/button';
-import LanguageSelector from './LanguageSelector';
+// import LanguageSelector from './LanguageSelector';
 
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -71,7 +71,7 @@ const Navigation = () => {
 
           {/* Language Selector & CTA */}
           <div className="hidden lg:flex items-center space-x-4">
-            <LanguageSelector />
+            {/* <LanguageSelector /> */}
             <Button className="btn-cultural">
               Start Your Journey
             </Button>
@@ -120,7 +120,7 @@ const Navigation = () => {
             ))}
             <div className="px-4 pt-4 border-t border-border/50">
               <div className="flex flex-col space-y-3">
-                <LanguageSelector />
+                {/* <LanguageSelector /> */}
                 <Button className="btn-cultural w-full">
                   Start Your Journey
                 </Button>
